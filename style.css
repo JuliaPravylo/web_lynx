@@ -2,13 +2,12 @@ html {
     scroll-behavior: smooth;
 }
 @font-face {
-    font-family: "e-Ukraine";
-    src: local("e-Ukraine"),
-       /*url("/fonts/e-Ukraine/e-Ukraine/Regular/.woff2") format("woff2"),
-       url("/fonts/e-Ukraine/e-Ukraine/Regular/woff") format("woff");
+   font-family: "e-Ukraine";
+    src:  url("/fonts/e-Ukraine/e-Ukraine_Regular/e-Ukraine_font/web/e-ukraine-regular_w.woff2") format("woff2"),
+       url("/fonts/e-Ukraine/e-Ukraine_Regular/e-Ukraine_font/web/e-ukraine-regular_w.woff") format("woff");
 }
 body {
-    font-family: "e-Ukraine";
+    font-family: "e-Ukraine"; 
 }
 
 .header {
