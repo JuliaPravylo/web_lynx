@@ -1,6 +1,16 @@
 html {
     scroll-behavior: smooth;
 }
+@font-face {
+    font-family: "e-Ukraine";
+    src: local("e-Ukraine"),
+       url("/fonts/e-Ukraine/e-Ukraine/Regular/.woff2") format("woff2"),
+       url("/fonts/e-Ukraine/e-Ukraine/Regular/woff") format("woff");
+}
+body {
+    font-family: "e-Ukraine";
+}
+
 .header {
     display: flex;
 
