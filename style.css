@@ -1,3 +1,11 @@
 html {
     scroll-behavior: smooth;
 }
+.header {
+    display: flex;
+
+}
+.logo-icon {
+    width: 50px;
+    
+}
