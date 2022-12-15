@@ -1,20 +1,58 @@
-html {
-    scroll-behavior: smooth;
-}
 @font-face {
    font-family: "e-Ukraine";
     src:  url("/fonts/e-Ukraine/e-Ukraine_Regular/e-Ukraine_font/web/e-ukraine-regular_w.woff2") format("woff2"),
        url("/fonts/e-Ukraine/e-Ukraine_Regular/e-Ukraine_font/web/e-ukraine-regular_w.woff") format("woff");
+}* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    height: 100%;
 }
 body {
-    font-family: "e-Ukraine"; 
+    font-family: "e-Ukraine";
+    line-height: 1;
+    font-size: 16px;
+    height: 100%;
 }
-
-.header {
-    display: flex;
-
+/*Адаптивна сітка*/
+@media (max-width: 1199.98px) {
+    [class*="__container"]{
+        max-width: 970px;
+    }
 }
+@media (max-width: 990.98px) {
+    [class*="__container"]{
+        max-width: 750px;
+    }
+}
+@media (max-width: 767.98px) {
+    [class*="__container"]{
+        max-width: none;
+    }
+}
+/*------------------------------*/
 .logo-icon {
-    width: 50px;
-    
+    width: 64px;
+}
+.body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: #26313B;
+}
+.main {
+    flex: 1 1 auto;
+}
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box
+}
+[class*="__container"]{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
