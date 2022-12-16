@@ -86,3 +86,10 @@ body {
     font-size: 20px;
     color: #26313B;
 }
+.donate-button {
+    display: flex;
+    align-items: center;
+}
+.donate-logo {
+    height: 22px;
+}
