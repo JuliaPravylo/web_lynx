@@ -9,6 +9,10 @@ html {
     scroll-behavior: smooth;
     height: 100%;
 }
+body, html {
+    margin: 0;
+    padding: 0;
+}
 a {
     text-decoration: none;
 }
@@ -44,11 +48,13 @@ body {
     width: 100px;
 }
 .body {
+
     min-height: 100%;
     display: flex;
     flex-direction: column;
     overflow: hidden;
     color: #26313B;
+    background-color: #F4F7F8;
 }
 .main {
     flex: 1 1 auto;
@@ -65,6 +71,9 @@ body {
     padding: 0 20px;
 }
 /*=========================*/
+.header {
+    
+}
 .header__container {
     display: flex;
     justify-content: space-between;
