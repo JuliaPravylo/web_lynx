@@ -71,7 +71,7 @@ body {
 }
 /*=========================*/
 .header {
-    background-image: url("/img/bg_photo/photo_ukrainian_flag_heart.jpg");
+    background: url("/img/bg_photo/photo_ukrainian_flag_heart.jpg") 0 0/cover no-repeat;
 }
 .header__container {
     display: flex;
